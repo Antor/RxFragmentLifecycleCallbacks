@@ -1,0 +1,29 @@
+ext {
+    versions = [
+            minSdk : 15,
+            targetSdk : 28,
+            compileSdk : 28,
+
+            androidPlugin : '3.3.0',
+            gradleVersionsPlugin : '0.20.0',
+            bintray : '1.8.4',
+            androidMavenPublish : '3.6.2',
+
+            rxjava : '2.2.6',
+            supportAnnotations : '1.0.1',
+            supportFragment : '1.0.0'
+    ]
+
+    buildPlugins = [
+            android : "com.android.tools.build:gradle:$versions.androidPlugin",
+            gradleVersionsPlugin : "com.github.ben-manes:gradle-versions-plugin:$versions.gradleVersionsPlugin",
+            bintray : "com.jfrog.bintray.gradle:gradle-bintray-plugin:$versions.bintray",
+            androidMavenPublish : "digital.wup:android-maven-publish:$versions.androidMavenPublish"
+    ]
+
+    libraries = [
+            rxjava : "io.reactivex.rxjava2:rxjava:$versions.rxjava",
+            supportAnnotations : "androidx.annotation:annotation:$versions.supportAnnotations",
+            supportFragment : "androidx.fragment:fragment:$versions.supportFragment"
+    ]
+}

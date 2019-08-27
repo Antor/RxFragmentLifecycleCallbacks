@@ -1,0 +1,31 @@
+ext {
+    packaging = [
+            groupId : 'com.gravityray',
+            artifactId : 'rxfragmentlifecyclecallbacks',
+
+            versionCode : 1,
+            versionName : '0.1.0-SNAPSHOT',
+            versionDescription : 'Initial development.',
+            vcsTag : 'v0.1.0-SNAPSHOT',
+
+            websiteUrl : 'https://github.com/Antor/RxFragmentLifecycleCallbacks',
+            issueTrackerUrl : 'https://github.com/Antor/RxFragmentLifecycleCallbacks/issues',
+            vcsUrl : 'https://github.com/Antor/RxFragmentLifecycleCallbacks',
+
+            githubRepo : 'Antor/RxFragmentLifecycleCallbacks',
+            githubReleaseNotesFile : 'CHANGES.md',
+
+            bintrayRepo : 'maven',
+
+            name : 'RxFragmentLifecycleCallbacks',
+            description : 'RxJava 2 wrapper around FragmentLifecycleCallbacks API from support library.',
+
+            bintrayLicense : 'MIT',
+
+            pomLicenseName : 'MIT License',
+            pomLicenseUrl : 'http://www.opensource.org/licenses/mit-license.php',
+
+            developerName : 'Andrei Tsiatsera',
+            developerEmail : 'Paladin26@narod.ru'
+    ]
+}
