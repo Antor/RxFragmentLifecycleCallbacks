@@ -4,9 +4,9 @@ ext {
             artifactId : 'rxfragmentlifecyclecallbacks',
 
             versionCode : 1,
-            versionName : '0.1.0-SNAPSHOT',
+            versionName : '0.1.0',
             versionDescription : 'Initial development.',
-            vcsTag : 'v0.1.0-SNAPSHOT',
+            vcsTag : 'v0.1.0',
 
             websiteUrl : 'https://github.com/Antor/RxFragmentLifecycleCallbacks',
             issueTrackerUrl : 'https://github.com/Antor/RxFragmentLifecycleCallbacks/issues',
